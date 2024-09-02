@@ -13,7 +13,7 @@ payload = {
 response = requests.request(
     'POST',
     'https://data.oxylabs.io/v1/queries',
-    auth=('USERNAME', 'PASSWORD'),
+    auth=('moehamid', 'Enternet@24'),
     json=payload
 )
 
